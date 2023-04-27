@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>student login</title>
+<style type="text/css">
+input[type="login"]{
+  cursor: pointer; 
+}
+</style>
+
+</head>
+
+
+<body>
+
+<center>
+<h3>SignIn Here</h3>
+
+<form action="login.php" method="post">
+
+<table>
+  <tr>
+    <td>Student Name:</td>
+    <td>
+      <input type="text" name="User" placeholder="Enter Name Here">
+    </td>
+  </tr>
+  <tr>
+    <td>Password:</td>
+    <td>
+      <input type="password" name="user_pass" placeholder="Enter Password Here">
+    </td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td>
+      <input type="email" name="mail" placeholder="Enter email Here">
+    </td>
+  </tr>
+  <tr>
+    <td>Gender:</td>
+    <td>
+      <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female
+      <input type="radio" name="gender">Others
+    </td>
+  </tr>
+  <tr>
+    <td>Student Contact No.:</td>
+    <td>
+      <select>
+        <option selected>+91</option>
+      </select>
+      <input type="Contact No." name="mob_digits" placeholder="88********" maxlength="10">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="Submit" name="Submit" value="login">
+    </td>
+    <td>
+      Already Registered?<a href="login.html">SignIp Here</a>
+    </td>
+  </tr>
+</table>
+</center>
+
+</body>
+
+</html>
